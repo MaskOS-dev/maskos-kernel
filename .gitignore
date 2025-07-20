@@ -1,0 +1,54 @@
+# Compiled packages and their temporary files
+*.pkg.tar.zst
+*.log
+*.tar.zst
+
+# Arch Linux makepkg related files
+pkg/
+src/
+*.old
+*.new
+*.install
+.makepkg/
+
+# Kernel build specific files
+vmlinux
+Module.symvers
+System.map
+.config.old
+.config.bak
+.config.prev
+.cache/
+.tmp_versions/
+scripts/basic/
+scripts/genksyms/
+scripts/mod/
+scripts/kconfig/
+scripts/selinux/
+tools/objtool/
+.kernelrelease
+.version
+.scmversion
+.BTF_ids
+
+# Common build directories and files
+build/
+dist/
+target/
+*.o
+*.ko
+*.mod.c
+*.mod
+*.order
+*.symtypes
+
+# Editor/IDE specific files (e.g., VS Code, Vim, Emacs)
+.vscode/
+.idea/
+*.swp
+*~
+.#*
+
+# System specific files
+*.DS_Store
+Thumbs.db
