@@ -1,9 +1,11 @@
 # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+#
+# MaskOS Modifications Maintainer: Aiden_ <aiden0@zohomail.com>
 
-pkgbase=linux
+pkgbase=linux-maskos
 pkgver=6.15.7.arch1
 pkgrel=1
-pkgdesc='Linux'
+pkgdesc=''The MaskOS hardened Linux kernel and modules''
 url='https://github.com/archlinux/linux'
 arch=(x86_64)
 license=(GPL-2.0-only)
@@ -248,7 +250,7 @@ _package-docs() {
 pkgname=(
   "$pkgbase"
   "$pkgbase-headers"
-  "$pkgbase-docs"
+#  "$pkgbase-docs"
 )
 for _p in "${pkgname[@]}"; do
   eval "package_$_p() {
