@@ -5,7 +5,7 @@
 pkgbase=linux-maskos
 pkgver=6.15.7.arch1
 pkgrel=1
-pkgdesc=''The MaskOS hardened Linux kernel and modules''
+pkgdesc='The MaskOS hardened Linux kernel and modules'
 url='https://github.com/archlinux/linux'
 arch=(x86_64)
 license=(GPL-2.0-only)
