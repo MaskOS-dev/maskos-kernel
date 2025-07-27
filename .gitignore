@@ -2,6 +2,10 @@
 *.pkg.tar.zst
 *.log
 *.tar.zst
+*.sign
+*.xz
+*.zst
+*.sig
 
 # Arch Linux makepkg related files
 pkg/
